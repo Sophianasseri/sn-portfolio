@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.list {
+    display: flex;
+}
+.listEl {
+    margin: 0 1.5rem;
+}

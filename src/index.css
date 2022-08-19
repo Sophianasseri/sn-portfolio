@@ -1,0 +1,18 @@
+/* Default Style */
+:root {
+    --bg-color: #192742;
+    --main-color: white;
+}
+
+*{
+    box-sizing: border-box;
+    background: var(--bg-color);
+    color: var(--main-color);
+}
+body {
+    max-width: 1586px;
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
