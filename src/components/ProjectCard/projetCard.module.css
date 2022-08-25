@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  max-width: 300px;
+  border-radius: 5px;
+  height: 200px;
+  padding: 0.5rem;
+}
+.title {
+  color: black;
+  margin: auto;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  background: black;
+}
+.type {
+  margin: 0;
+}
+.dev {
+  color: #8c3430;
+}
+.ux {
+  color: blue;
+}
+.icon {
+  align-self: flex-end;
+}

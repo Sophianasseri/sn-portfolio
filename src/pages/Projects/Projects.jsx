@@ -1,9 +1,25 @@
 import React from 'react';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
+import projects from '../../data/data';
+import styles from './projects.module.css';
 
 function Projects() {
   return (
     <div>
-      <p>Project</p>
+      <h2>MES PROJETS</h2>
+      <div className={styles.cardContainer}>
+        {projects.map((project) => (
+          <ProjectCard
+            title={project.title}
+            projectType={project.type}
+            codeLink={project.repo}
+          >
+            {project.icons.map((icon) => (
+              <img className={styles.icon} src={icon} alt="" />
+            ))}
+          </ProjectCard>
+        ))}
+      </div>
     </div>
   );
 }

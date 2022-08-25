@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
 import styles from './header.module.css';
 
@@ -7,8 +8,12 @@ function Header() {
     <header className={styles.header}>
       <img src={logo} alt="Sophia Nasseri" />
       <ul className={styles.list}>
-        <li className={styles.listEl}>A propos</li>
-        <li className={styles.listEl}>Projets</li>
+        <li className={styles.listEl}>
+          <NavLink to="/">À propos</NavLink>
+        </li>
+        <li className={styles.listEl}>
+          <NavLink to="/projects">Projets</NavLink>
+        </li>
       </ul>
     </header>
   );
