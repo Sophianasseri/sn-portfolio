@@ -1,3 +1,6 @@
+/* eslint-disable react/jsx-curly-newline */
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable no-confusing-arrow */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
@@ -9,10 +12,20 @@ function Header() {
       <img src={logo} alt="Sophia Nasseri" />
       <ul className={styles.list}>
         <li className={styles.listEl}>
-          <NavLink to="/">À propos</NavLink>
+          <NavLink
+            className={({ isActive }) => (isActive ? styles.active : '')}
+            to="/"
+          >
+            À propos
+          </NavLink>
         </li>
         <li className={styles.listEl}>
-          <NavLink to="/projects">Projets</NavLink>
+          <NavLink
+            className={({ isActive }) => (isActive ? styles.active : '')}
+            to="/projects"
+          >
+            Projets
+          </NavLink>
         </li>
       </ul>
     </header>

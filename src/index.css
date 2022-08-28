@@ -6,6 +6,11 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'Lucida Console', sans-serif;
+}
+
+#root {
+  margin: 0 1.5rem;
 }
 
 body {
@@ -17,4 +22,9 @@ body {
 
 li {
   list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }

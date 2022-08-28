@@ -27,7 +27,11 @@ function ProjectCard({ projectType, title, children, codeLink, projectLink }) {
           projectType === 'UX Design' ? styles.ux : styles.dev
         }`}
       >
-        <span className={styles.dot} />
+        <span
+          className={`${styles.dot} ${
+            projectType === 'UX Design' ? styles.uxDot : styles.devDot
+          }`}
+        />
         {projectType}
       </p>
       <h2 className={styles.title}>{title}</h2>
