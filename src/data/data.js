@@ -4,6 +4,7 @@ const projects = [
     id: 1,
     type: 'UX Design',
     icons: ['./icons/figma.svg'],
+    link: 'https://www.figma.com/proto/pmQt7AlUxU4RcxZyOZnSA2/Wivy-(Version-2)?page-id=36%3A2&node-id=627%3A62409&starting-point-node-id=171%3A4079',
   },
   {
     title: 'Reservia',
@@ -11,6 +12,7 @@ const projects = [
     type: 'Developpement web',
     icons: ['./icons/html.svg', './icons/css.svg'],
     repo: 'https://github.com/Sophianasseri/SophiaNasseri_2_14052021',
+    link: 'https://sophianasseri.github.io/SophiaNasseri_2_14052021/',
   },
   {
     title: 'OhMyFood',
@@ -18,6 +20,7 @@ const projects = [
     type: 'Developpement web',
     icons: ['./icons/html.svg', './icons/sass.svg'],
     repo: 'https://github.com/Sophianasseri/SophiaNasseri_3_15062021',
+    link: 'https://sophianasseri.github.io/SophiaNasseri_3_15062021/index.html',
   },
   {
     title: 'Fisheye',
@@ -25,6 +28,7 @@ const projects = [
     type: 'Developpement web',
     icons: ['./icons/html.svg', './icons/sass.svg', './icons/js.svg'],
     repo: 'https://github.com/Sophianasseri/SophiaNasseri_6_18082021',
+    link: 'https://sophianasseri.github.io/SophiaNasseri_6_18082021/',
   },
   {
     title: 'Les petits plats',

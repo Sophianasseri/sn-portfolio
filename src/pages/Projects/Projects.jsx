@@ -13,6 +13,7 @@ function Projects() {
             title={project.title}
             projectType={project.type}
             codeLink={project.repo}
+            projectLink={project.link}
           >
             {project.icons.map((icon) => (
               <img className={styles.icon} src={icon} alt="" />
