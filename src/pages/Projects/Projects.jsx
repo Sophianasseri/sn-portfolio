@@ -16,7 +16,11 @@ function Projects() {
             projectLink={project.link}
           >
             {project.icons.map((icon) => (
-              <img className={styles.icon} src={icon} alt="" />
+              <img
+                className={styles.icon}
+                src={process.env.PUBLIC_URL + icon}
+                alt=""
+              />
             ))}
           </ProjectCard>
         ))}
