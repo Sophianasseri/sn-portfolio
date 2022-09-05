@@ -28,3 +28,11 @@ a {
   color: white;
   text-decoration: none;
 }
+
+/* Responsive*/
+
+@media screen and( max-width: 576px ) {
+  #roots {
+    margin: 1rem;
+  }
+}
