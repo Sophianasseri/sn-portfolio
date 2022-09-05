@@ -9,7 +9,7 @@ import styles from './header.module.css';
 function Header() {
   return (
     <header className={styles.header}>
-      <img src={logo} alt="Sophia Nasseri" />
+      <img className={styles.logo} src={logo} alt="Sophia Nasseri" />
       <ul className={styles.list}>
         <li className={styles.listEl}>
           <NavLink
