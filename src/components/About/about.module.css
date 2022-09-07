@@ -2,6 +2,7 @@
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
 }
 .text {
@@ -9,6 +10,14 @@
 }
 
 .neon {
+  transform: rotate(-40deg);
+}
+.neonMobile {
+  display: none;
+}
+
+.neon,
+.neonMobile {
   opacity: 0;
   animation-name: appear, flash;
   animation-delay: 500ms, 3s;
@@ -16,7 +25,6 @@
   animation-timing-function: linear;
   animation-iteration-count: 1, infinite;
   max-height: 500px;
-  transform: rotate(-40deg);
 }
 
 @keyframes appear {
@@ -97,5 +105,24 @@
 
   to {
     opacity: 1;
+  }
+}
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+  .container {
+    flex-direction: column-reverse;
+    font-size: 16px;
+  }
+  .container h1 {
+    font-size: 18px;
+  }
+  .neon {
+    display: none;
+  }
+  .neonMobile {
+    display: block;
+    margin-bottom: 20px;
   }
 }
