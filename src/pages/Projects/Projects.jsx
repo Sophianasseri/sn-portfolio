@@ -1,13 +1,33 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import projects from '../../data/data';
 import styles from './projects.module.css';
 
 function Projects() {
+  // farmer-motion card animation variants
+  const cardVariants = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 0.1,
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
   return (
     <div>
       <h2>MES PROJETS</h2>
-      <div className={styles.cardContainer}>
+      <motion.div
+        className={styles.cardContainer}
+        variants={cardVariants}
+        initial="hidden"
+        animate="visible"
+      >
         {projects.map((project) => (
           <ProjectCard
             title={project.title}
@@ -24,7 +44,7 @@ function Projects() {
             ))}
           </ProjectCard>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 }

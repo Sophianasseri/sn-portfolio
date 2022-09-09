@@ -1,6 +1,7 @@
 /* eslint-disable react/button-has-type */
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import styles from './projetCard.module.css';
 import githubLogo from '../../assets/github.svg';
 import siteLogo from '../../assets/world.svg';
@@ -15,12 +16,28 @@ function ProjectCard({ projectType, title, children, codeLink, projectLink }) {
     setIsHovering(false);
   };
 
+  // Framer motion animation for cards
+  const childrenVariants = {
+    hidden: { opacity: 0, translateX: '-50', translateY: '-50' },
+    visible: {
+      opacity: 1,
+      translateY: 0,
+      translateX: 0,
+      transition: {
+        duration: 0.2,
+        type: 'tween',
+        ease: 'easeOut',
+      },
+    },
+  };
+
   return (
     // eslint-disable-next-line jsx-a11y/mouse-events-have-key-events
-    <div
+    <motion.div
       className={styles.card}
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
+      variants={childrenVariants}
     >
       <p
         className={`${styles.type} ${
@@ -55,7 +72,7 @@ function ProjectCard({ projectType, title, children, codeLink, projectLink }) {
           </div>
         </>
       )}
-    </div>
+    </motion.div>
   );
 }
 
