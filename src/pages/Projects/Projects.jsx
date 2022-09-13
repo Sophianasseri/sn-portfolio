@@ -30,6 +30,7 @@ function Projects() {
       >
         {projects.map((project) => (
           <ProjectCard
+            key={project.id}
             title={project.title}
             projectType={project.type}
             codeLink={project.repo}
@@ -37,6 +38,7 @@ function Projects() {
           >
             {project.icons.map((icon) => (
               <img
+                key={icon}
                 className={styles.icon}
                 src={process.env.PUBLIC_URL + icon}
                 alt=""
