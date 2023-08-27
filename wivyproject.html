@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sophia Nasseri - Wivy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="dark">
+    <div class="wrapper">
+      <header>
+        <nav>
+          <a
+            class="logo"
+            href="./index.html"
+            id="neonText"
+            aria-label="retour vers la page d'accueil"
+          >
+            <span class="firstFont">Sophia</span>
+            <span class="secondFont">Nasseri</span>
+          </a>
+          <ul class="navigation">
+            <li class="navLink">
+              <a href="./projects.html">Projets</a>
+            </li>
+            <li class="navLink">
+              <a href="./about.html">A propos</a>
+            </li>
+          </ul>
+        </nav>
+        <button
+          type="button"
+          data-theme-toggle
+          class="btn toggleBtn neonElement"
+        >
+          <img
+            class="light toggleIcon"
+            src="./assets/icons/lighton.svg"
+            alt=""
+          />
+          <img
+            class="dark toggleIcon"
+            src="./assets/icons/lightoff.svg"
+            alt=""
+          />
+        </button>
+      </header>
+      <main>
+        <section>
+          <h1 class="title main-title">Wivy</h1>
+          <div id="sliderSky" class="slider">
+            <div class="previous btn neonElement" onclick="ChangeSlideWivy(-1)">
+              <img
+                class="light slide-icon slide-icon-rotate"
+                src="./assets/icons/chevron.svg"
+                alt=""
+              />
+              <img
+                class="dark slide-icon slide-icon-rotate"
+                src="./assets/icons/chevrondark.svg"
+                alt=""
+              />
+            </div>
+            <img
+              src="./assets/images/wivy.png"
+              alt=""
+              id="slideWivy"
+              class="slide"
+            />
+            <div class="next btn neonElement" onclick="ChangeSlideWivy(1)">
+              <img
+                class="light slide-icon"
+                src="./assets/icons/chevron.svg"
+                alt=""
+              />
+              <img
+                class="dark slide-icon"
+                src="./assets/icons/chevrondark.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+        <section class="project-description">
+          <p class="project-description-text">
+            Wivy est une application desktop et tablette qui propose des
+            supports pour les animateurs en EHPAD. L'application se divise en
+            sous-applications comprenant entre autres une partie animation qui
+            propose une diversité de jeux destinés aux personnes âgées. Toutes
+            les animations sont regroupées dans un catalogue à la manière d'un
+            store. Des vignettes permettent d'avoir un résumé global sur le jeu.
+            L'utilisateur peut aussi accéder à une fiche technique s'il veut
+            plus d'information .Lorsque l'animateur a choisi un jeu, il doit le
+            télécharger et accède automatiquement à un espace « animations »
+            téléchargées pour lancer le jeu. Chaque animation dispose de son
+            propre interface et il es possible que celui-ci soit adapté ne
+            fonction du thème de l'animation. <br />
+            <br />
+            Après un audit UX j'ai pu faire remonter quelques problèmes. Les
+            interfaces des animations manquent de cohérence. Les éléments de
+            navigation ne sont pas forcément à la même place d'une animation à
+            une autre et les icônes pour les boutons peuvent être différentes.
+            Les vignettes, la fiche technique et le menu des options manquent de
+            structure et de lisibilité. J'ai pu aussi noter des problèmes de
+            contraste notamment sur les animations avec une thématique.
+          </p>
+          <div class="separation"></div>
+          <div class="description-notes">
+            <h2 class="description-title">Objectifs :</h2>
+            <ul class="description-goals">
+              <li>Harmoniser l’interface des animations</li>
+              <li>
+                Structurer les vignettes, la fiche technique des animations et
+                le menu des options
+              </li>
+              <li>
+                Intégrer la possibilité de jouer directement en ligne, sans
+                téléchargement
+              </li>
+            </ul>
+            <h2 class="description-title">Réalisé avec :</h2>
+            <div class="soft-container">
+              <div class="soft">
+                <img
+                  class="light soft-icon"
+                  src="./assets/icons/figma.svg"
+                  alt=""
+                />
+                <img
+                  class="dark soft-icon"
+                  src="./assets/icons/figmadark.svg"
+                  alt=""
+                />
+                <p class="soft-text">Figma</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="project-links">
+          <button
+            onclick="window.open('https://www.figma.com/proto/ylVgZJs4TdzOHtsBR2BVdR/Animations-(Version-Wivy)?page-id=36%3A2&type=design&node-id=171-4079&viewport=448%2C492%2C0.06&t=bxHYbvB2XLwLYjNH-1&scaling=min-zoom&starting-point-node-id=171%3A4079&show-proto-sidebar=1&mode=design','_blank')"
+            class="btn main-btn big-btn neonElement"
+          >
+            Voir le projet
+          </button>
+          <button
+            onclick="window.location.href='./skyproject.html'"
+            class="big-btn btn secondary-btn btn-project neonElement"
+          >
+            <img
+              class="light switch-project-icon prevProject"
+              src="assets/icons/arrow.svg"
+              alt=""
+            />
+            <img
+              class="dark switch-project-icon prevProject"
+              src="assets/icons/arrowdark.svg"
+              alt=""
+            />
+            <span>Projet précédent</span>
+          </button>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="title">Me contacter:</p>
+        <button
+          onclick="window.open('https://www.linkedin.com/in/snasseri/','_blank')"
+          class="btn contact-btn neonElement"
+          aria-label="Linkedin"
+        >
+          <img class="light" src="./assets/icons/linkedin.svg" alt="" />
+          <img class="dark" src="./assets/icons/linkedindark.svg" alt="" />
+        </button>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sophia Nasseri - A propos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="dark">
+    <div class="wrapper">
+      <header>
+        <nav>
+          <a
+            class="logo"
+            href="./index.html"
+            id="neonText"
+            aria-label="retour vers la page d'accueil"
+          >
+            <span class="firstFont">Sophia</span>
+            <span class="secondFont">Nasseri</span>
+          </a>
+          <ul class="navigation">
+            <li class="navLink">
+              <a href="./projects.html">Projets</a>
+            </li>
+            <li class="navLink">
+              <a href="./about.html">A propos</a>
+            </li>
+          </ul>
+        </nav>
+        <button
+          type="button"
+          data-theme-toggle
+          class="btn toggleBtn neonElement"
+        >
+          <img
+            class="light toggleIcon"
+            src="./assets/icons/lighton.svg"
+            alt=""
+          />
+          <img
+            class="dark toggleIcon"
+            src="./assets/icons/lightoff.svg"
+            alt=""
+          />
+        </button>
+      </header>
+      <main>
+        <div class="about">
+          <img src="./assets/images/avatar.png" alt="" class="avatar" />
+          <div class="about-description">
+            <h1 class="main-title">Bonjour, moi c'est Sophia</h1>
+            <p>
+              Après une licence de psychologie centrée sur l'<span
+                >ergonomie</span
+              >
+              et le <span>handicap</span> , je me suis orientée vers le monde du
+              numérique. Étant à la recherche d'un métier où je pouvais exprimer
+              ma créativité tout en gardant un <span>contact humain</span>, je
+              me suis dirigée vers l'<span>UX Design</span>'UX Design. J'ai pris
+              conscience à quel point la conception d'une interface pouvait
+              avoir une influence sur l'<span>expérience utilisateur</span> et à
+              quel point la psychologie jouait elle aussi un rôle dans la façon
+              dont les utilisateurs percevaient les choses. Afin d'aller “au
+              delà du prototype” et de comprendre les enjeux techniques je me
+              suis formée au développement front-end, Aujourd'hui je me recentre
+              sur la création d'interface, je suis à la recherche d'une
+              <span> alternance en UI Design</span>
+              afin de consolider mes compétences dans ce domaine.
+              <br />
+              <br />
+              Je suis passionnée de jeux-vidéos ainsi que de musique et j'aime
+              puiser mon inspiration à partir de ces univers. J'aime créer des
+              univers distincts, challenger les designs existants et rechercher
+              des solutions aux problèmes existants.
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <p class="title">Me contacter:</p>
+        <button
+          onclick="window.open('https://www.linkedin.com/in/snasseri/','_blank')"
+          class="btn contact-btn neonElement"
+          aria-label="Linkedin"
+        >
+          <img class="light" src="./assets/icons/linkedin.svg" alt="" />
+          <img class="dark" src="./assets/icons/linkedindark.svg" alt="" />
+        </button>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
