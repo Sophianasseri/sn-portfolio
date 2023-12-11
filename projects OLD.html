@@ -20,12 +20,8 @@
             <span class="secondFont">Nasseri</span>
           </a>
           <ul class="navigation">
-            <li class="navLink">
-              <a href="./projects.html">Projets</a>
-            </li>
-            <li class="navLink">
-              <a href="./about.html">A propos</a>
-            </li>
+            <li class="navLink"><a href="./projects.html">Projets</a></li>
+            <li class="navLink"><a href="./about.html">A propos</a></li>
           </ul>
         </nav>
         <button
@@ -45,9 +41,42 @@
           />
         </button>
       </header>
-      <main>
+      <main id="projects">
         <h1 class="title main-title">Projets</h1>
-        <section class="project-container"></section>
+        <section class="project-container">
+          <div class="project">
+            <div>
+              <img
+                class="project-img"
+                src="./assets/images/skythumb.png"
+                alt=""
+              />
+            </div>
+            <h2 class="title">A Sky of Honey - paroles illustrées</h2>
+            <button
+              class="btn main-btn big-btn project-btn neonElement"
+              onclick="window.location.href='./skyproject.html'"
+            >
+              En savoir plus
+            </button>
+          </div>
+          <div class="project">
+            <div>
+              <img
+                class="project-img"
+                src="./assets/images/wivythumb.png"
+                alt=""
+              />
+            </div>
+            <h2 class="title">Wivy</h2>
+            <button
+              onclick="window.location.href='./wivyproject.html'"
+              class="btn main-btn big-btn project-btn neonElement"
+            >
+              En savoir plus
+            </button>
+          </div>
+        </section>
       </main>
       <footer class="footer">
         <p class="title">Me contacter:</p>
@@ -61,7 +90,6 @@
         </button>
       </footer>
     </div>
-    <script src="projects.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

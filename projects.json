@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "A Sky of Honey - Paroles illustrées",
+    "preview": "skythumb.png",
+    "images": ["askyproject.png", "askyproject2.png", "askyproject3.png"],
+    "description": "Projet personnel pour lequel je me suis inspirée des paroles de l'album “Aerial” de Kate Bush. Cet album est séparé en deux parties, dont une intitulée \"A Sky of Honey\". Dans cette dernière la chanteuse a composé une suite de chansons décrivant une journée d'été. Chaque chanson représente un moment de la journée en allant du matin jusqu'à l'aube du jour suivant. Quelque soit les applications de streaming ou les sites de paroles, j'ai toujours trouvé l'affichage des paroles assez fade, D'autant plus quand l'univers d'un artiste ou d'un album est très imagé et thématique. A la manière des livrets que l'on pouvait retrouver dans les supports physiques, j'ai voulu proposer ici une option plus ludique où l'on peut facilement accéder aux paroles tout en étant immergé dans l'univers des chansons.",
+    "goals": [
+      "Transcrire un univers imagé en design",
+      "Conserver une bonne UX malgré un thème visuel imposant"
+    ],
+    "toolIconsLight": ["illustrator.svg", "figma.svg"],
+    "toolIconsDark": ["illustratordark.svg", "figmadark.svg"],
+    "toolNames": ["Illustrator", "Figma"],
+    "link": "https://www.figma.com/proto/N5jnGJBVmLVQTfjOQ1w0mu/Lyric-Book?page-id=0%3A1&type=design&node-id=261-1191&viewport=609%2C408%2C0.07&t=eiQK7HevFvAbvT4E-1&scaling=min-zoom&starting-point-node-id=261%3A1191&mode=design','_blank'"
+  },
+  {
+    "id": 2,
+    "name": "Wivy",
+    "preview": "wivythumb.png",
+    "images": ["wivy.png", "wivy2.png", "wivy3.png"],
+    "description": "Wivy est une application desktop et tablette qui propose des supports pour les animateurs en EHPAD. L'application se divise en sous-applications comprenant entre autres une partie animation qui propose une diversité de jeux destinés aux personnes âgées. Toutes les animations sont regroupées dans un catalogue à la manière d'un store. Des vignettes permettent d'avoir un résumé global sur le jeu. L'utilisateur peut aussi accéder à une fiche technique s'il veut plus d'information .Lorsque l'animateur a choisi un jeu, il doit le télécharger et accède automatiquement à un espace « animations » téléchargées pour lancer le jeu. Chaque animation dispose de son propre interface et il es possible que celui-ci soit adapté ne fonction du thème de l'animation. Après un audit UX j'ai pu faire remonter quelques problèmes. Les interfaces des animations manquent de cohérence. Les éléments de navigation ne sont pas forcément à la même place d'une animation à une autre et les icônes pour les boutons peuvent être différentes. Les vignettes, la fiche technique et le menu des options manquent de structure et de lisibilité. J'ai pu aussi noter des problèmes de contraste notamment sur les animations avec une thématique.",
+    "goals": [
+      "Harmoniser l’interface des animations",
+      "Structurer les vignettes, la fiche technique des animations et le menu des options",
+      "Intégrer la possibilité de jouer directement en ligne, sans téléchargement"
+    ],
+    "toolIconsLight": "figma.svg",
+    "toolIconsDark": ["figmadark.svg"],
+    "toolNames": ["Figma"],
+    "link": "https://www.figma.com/proto/ylVgZJs4TdzOHtsBR2BVdR/Animations-(Version-Wivy)?page-id=36%3A2&type=design&node-id=171-4079&viewport=448%2C492%2C0.06&t=bxHYbvB2XLwLYjNH-1&scaling=min-zoom&starting-point-node-id=171%3A4079&show-proto-sidebar=1&mode=design','_blank'"
+  },
+  {
+    "id": 3,
+    "name": "Médiathèque Till l'Espiègle",
+    "preview": "tillthumb.png",
+    "images": ["till.png"],
+    "description": "Wivy est une application desktop et tablette qui propose des supports pour les animateurs en EHPAD. L'application se divise en sous-applications comprenant entre autres une partie animation qui propose une diversité de jeux destinés aux personnes âgées. Toutes les animations sont regroupées dans un catalogue à la manière d'un store. Des vignettes permettent d'avoir un résumé global sur le jeu. L'utilisateur peut aussi accéder à une fiche technique s'il veut plus d'information .Lorsque l'animateur a choisi un jeu, il doit le télécharger et accède automatiquement à un espace « animations » téléchargées pour lancer le jeu. Chaque animation dispose de son propre interface et il es possible que celui-ci soit adapté ne fonction du thème de l'animation. Après un audit UX j'ai pu faire remonter quelques problèmes. Les interfaces des animations manquent de cohérence. Les éléments de navigation ne sont pas forcément à la même place d'une animation à une autre et les icônes pour les boutons peuvent être différentes. Les vignettes, la fiche technique et le menu des options manquent de structure et de lisibilité. J'ai pu aussi noter des problèmes de contraste notamment sur les animations avec une thématique.",
+    "goals": [
+      "Harmoniser l’interface des animations",
+      "Structurer les vignettes, la fiche technique des animations et le menu des options",
+      "Intégrer la possibilité de jouer directement en ligne, sans téléchargement"
+    ],
+    "toolIconsLight": "figma.svg",
+    "toolIconsDark": ["figmadark.svg"],
+    "toolNames": ["Figma"],
+    "link": "https://www.figma.com/proto/ylVgZJs4TdzOHtsBR2BVdR/Animations-(Version-Wivy)?page-id=36%3A2&type=design&node-id=171-4079&viewport=448%2C492%2C0.06&t=bxHYbvB2XLwLYjNH-1&scaling=min-zoom&starting-point-node-id=171%3A4079&show-proto-sidebar=1&mode=design','_blank'"
+  }
+]
