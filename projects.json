@@ -12,7 +12,7 @@
     "toolIconsLight": ["illustrator.svg", "figma.svg"],
     "toolIconsDark": ["illustratordark.svg", "figmadark.svg"],
     "toolNames": ["Illustrator", "Figma"],
-    "link": "https://www.figma.com/proto/N5jnGJBVmLVQTfjOQ1w0mu/Lyric-Book?page-id=0%3A1&type=design&node-id=261-1191&viewport=609%2C408%2C0.07&t=eiQK7HevFvAbvT4E-1&scaling=min-zoom&starting-point-node-id=261%3A1191&mode=design','_blank'"
+    "link": "https://www.figma.com/proto/N5jnGJBVmLVQTfjOQ1w0mu/Lyric-Book?page-id=0%3A1&type=design&node-id=261-1191&viewport=609%2C408%2C0.07&t=eiQK7HevFvAbvT4E-1&scaling=min-zoom&starting-point-node-id=261%3A1191&mode=design"
   },
   {
     "id": 2,
@@ -25,10 +25,10 @@
       "Structurer les vignettes, la fiche technique des animations et le menu des options",
       "Intégrer la possibilité de jouer directement en ligne, sans téléchargement"
     ],
-    "toolIconsLight": "figma.svg",
+    "toolIconsLight": ["figma.svg"],
     "toolIconsDark": ["figmadark.svg"],
     "toolNames": ["Figma"],
-    "link": "https://www.figma.com/proto/ylVgZJs4TdzOHtsBR2BVdR/Animations-(Version-Wivy)?page-id=36%3A2&type=design&node-id=171-4079&viewport=448%2C492%2C0.06&t=bxHYbvB2XLwLYjNH-1&scaling=min-zoom&starting-point-node-id=171%3A4079&show-proto-sidebar=1&mode=design','_blank'"
+    "link": "https://www.figma.com/proto/ylVgZJs4TdzOHtsBR2BVdR/ONLINE-Animations-(Version-Wivy)?page-id=36%3A2&type=design&node-id=171-4079&viewport=448%2C492%2C0.06&t=RNwcvypTFQljYpp8-1&scaling=min-zoom&starting-point-node-id=171%3A4079&mode=design"
   },
   {
     "id": 3,
@@ -41,9 +41,9 @@
       "Structurer les vignettes, la fiche technique des animations et le menu des options",
       "Intégrer la possibilité de jouer directement en ligne, sans téléchargement"
     ],
-    "toolIconsLight": "figma.svg",
+    "toolIconsLight": ["figma.svg"],
     "toolIconsDark": ["figmadark.svg"],
     "toolNames": ["Figma"],
-    "link": "https://www.figma.com/proto/ylVgZJs4TdzOHtsBR2BVdR/Animations-(Version-Wivy)?page-id=36%3A2&type=design&node-id=171-4079&viewport=448%2C492%2C0.06&t=bxHYbvB2XLwLYjNH-1&scaling=min-zoom&starting-point-node-id=171%3A4079&show-proto-sidebar=1&mode=design','_blank'"
+    "link": "https://www.figma.com/proto/LRXPlTfNL5QjJAAlcCm0hL/ONLINE-Till?page-id=0%3A1&type=design&node-id=14-587&viewport=639%2C487%2C0.33&t=PAvArPlKAW4bhpEe-1&scaling=min-zoom&mode=design"
   }
 ]

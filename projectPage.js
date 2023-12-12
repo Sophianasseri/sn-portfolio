@@ -115,7 +115,7 @@ const displayProjects= async() => {
      </section>
      <section class="project-links">
        <button
-         onclick="window.open('https://www.figma.com/proto/N5jnGJBVmLVQTfjOQ1w0mu/Lyric-Book?page-id=0%3A1&type=design&node-id=261-1191&viewport=609%2C408%2C0.07&t=eiQK7HevFvAbvT4E-1&scaling=min-zoom&starting-point-node-id=261%3A1191&mode=design','_blank')"
+         onclick="window.open('${projectById.link}')"
          class="btn main-btn big-btn neonElement"
        >
          Voir le projet
