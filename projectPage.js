@@ -45,15 +45,13 @@ const displayProjects= async() => {
     // Get next project id page and loop through pages
 
     let nextPageId = Number(pageId) + 1
-    console.log(nextPageId);
     
       if (nextPageId > projects.length) {
-          nextPageId = 1
-    
-        console.log(Number(nextPageId));
-    
+          nextPageId = 1  
     
       }
+
+  
 
     projectElements.innerHTML =
     
@@ -142,6 +140,14 @@ const displayProjects= async() => {
     
         `;
         darkMode()
+        console.log(projectById.images.length);
+
+          // Remove slider buttons if there's just one image
+
+    if (projectById.images.length === 1) {
+      document.querySelector(".previous").style.display = "none"
+      document.querySelector(".next").style.display = "none"
+    }
 }
 
 displayProjects()
