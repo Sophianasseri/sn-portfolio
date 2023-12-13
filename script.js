@@ -22,19 +22,16 @@ export const darkMode = () => {
    const switchPictures =  () => {
   
       if (body.getAttribute('data-theme') === 'dark') {
-        console.log("sorry");
   
         if (lightImages !== null) {
           lightImages.forEach((image) => {
             image.style.display = "none"
-            console.log("lol");
         })
         }
           
           if (darkImages !== null) {
             darkImages.forEach((image) => {
               image.style.display = "block"
-              console.log("hey");
           })
           }
          
@@ -57,11 +54,10 @@ export const darkMode = () => {
           }
   
       } else  {
-        console.log("sy");
+
         if (lightImages !== null) {
           lightImages.forEach((image) => {
             image.style.display = "block"
-            console.log("no");
         })
         }
         if (darkImages !==null) {

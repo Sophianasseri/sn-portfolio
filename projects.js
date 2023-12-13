@@ -21,7 +21,7 @@ let projects = []
           <h2 class="title">${project.name}</h2>
           <button
             class="btn main-btn big-btn project-btn neonElement"
-            onclick="window.location.href='./projectPage.html?id=${project.id}.'"
+            onclick="window.location.href='./projectPage.html?id=${project.id}'"
           >
             En savoir plus
           </button>

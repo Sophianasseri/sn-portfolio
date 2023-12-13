@@ -13,22 +13,22 @@ const displayProjects= async() => {
 
     const  projectElements= document.querySelector('#project');
 
+    // Display elements by Id
     const projectById =projects.find((element) => element.id === parseInt(pageId, 10));
 
+    // Loop through array elements
     const goals = [];
     for (let i = 0; i < projectById.goals.length; i += 1) {
       goals.push(
         `  <li>${projectById.goals[i]}</li> `,
       );
     }
-
     const iconsLight = [];
     for (let i = 0; i < projectById.toolIconsLight.length; i += 1) {
       iconsLight.push(
         `  <img class="light soft-icon" src="./assets/icons/${projectById.toolIconsLight[i]}" alt=""/> `,
       );
     }
-
     const iconsDark = [];
     for (let i = 0; i < projectById.toolIconsLight.length; i += 1) {
       iconsDark.push(
@@ -41,6 +41,19 @@ const displayProjects= async() => {
         `  <p class="soft-text">${projectById.toolNames[i]}</p> `,
       );
     }
+
+    // Get next project id page and loop through pages
+
+    let nextPageId = Number(pageId) + 1
+    console.log(nextPageId);
+    
+      if (nextPageId > projects.length) {
+          nextPageId = 1
+    
+        console.log(Number(nextPageId));
+    
+    
+      }
 
     projectElements.innerHTML =
     
@@ -110,7 +123,7 @@ const displayProjects= async() => {
          Voir le projet
        </button>
        <button
-         onclick="window.location.href='./wivyproject.html'"
+         onclick="window.location.href='./projectPage.html?id=${nextPageId}'"
          class="big-btn btn secondary-btn btn-project neonElement"
        >
          <img
