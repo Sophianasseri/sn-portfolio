@@ -355,14 +355,23 @@ margin: 24px 0;
     text-align: center;
     margin-right: 16px;
 }
+.soft-iconsContainer {
+    display: flex;
+}
 .soft-icon {
     width: 32px;
     color: var(--main-color);
-    margin: 0 auto 8px auto;
+    margin-right: 80px; 
     
+}
+.soft-textContainer {
+    display: flex;
 }
 .soft-text {
     font-size: 14px;
+    width: 32px;
+    margin: 16px 80px 0 0;
+
 }
 .project-links {
     display: flex;

@@ -23,21 +23,20 @@ const displayProjects= async() => {
         `  <li>${projectById.goals[i]}</li> `,
       );
     }
-    const iconsLight = [];
+    const icons = [];
     for (let i = 0; i < projectById.toolIconsLight.length; i += 1) {
-      iconsLight.push(
+      icons.push(
         `  <img class="light soft-icon" src="./assets/icons/${projectById.toolIconsLight[i]}" alt=""/> `,
       );
     }
-    const iconsDark = [];
     for (let i = 0; i < projectById.toolIconsLight.length; i += 1) {
-      iconsDark.push(
+      icons.push(
         `  <img class="dark soft-icon" src="./assets/icons/${projectById.toolIconsDark[i]}" alt=""/> `,
       );
     }
     const toolNames = [];
     for (let i = 0; i < projectById.toolNames.length; i += 1) {
-      iconsDark.push(
+      toolNames.push(
         `  <p class="soft-text">${projectById.toolNames[i]}</p> `,
       );
     }
@@ -106,9 +105,12 @@ const displayProjects= async() => {
          <h2 class="description-title">Réalisé avec :</h2>
          <div class="soft-container">
            <div class="soft">
-             ${iconsLight.join('')}
-             ${iconsDark.join('')} 
-             ${toolNames.join('')}
+              <div class="soft-iconsContainer">
+              ${icons.join('')}
+              </div>
+              <div class="soft-textContainer">
+                ${toolNames.join('')} 
+              </div>    
            </div>
          </div>
        </div>
@@ -139,8 +141,9 @@ const displayProjects= async() => {
      </section>
     
         `;
+
+        // Display dark mode to dynamic generated content
         darkMode()
-        console.log(projectById.images.length);
 
           // Remove slider buttons if there's just one image
 
