@@ -1,22 +1,11 @@
+import { fetchProjectData } from "./script.js";
+import { darkMode } from "./script.js";
+
 const pageId = new URLSearchParams(window.location.search).get('id');
 
-/*function fetchProjectData() {
-    fetch('./projects.json')
-        .then(response => response.json())
-        .then(projects => displayProjects(projects))
-        .catch(error => console.error('Error fetching data:', error));
-}*/
-
-async function fetchProjectData() {
-  const reponse = await fetch('./projects.json');
-  const projects = await reponse.json();
-  return projects
-}
 
 let projects = []
 
-
-window.addEventListener('load', fetchProjectData);
 ;
 // Display project page
 const displayProjects= async() => {
@@ -139,24 +128,21 @@ const displayProjects= async() => {
      </section>
     
         `;
-
-       
+        darkMode()
 }
 
 displayProjects()
 
-    // Slider
 
-    
+    // Slider
+ 
   const  ChangeSlide = async (direction) => {
     projects = await fetchProjectData()
-    console.log(projects);
     const projectById =projects.find((element) => element.id === parseInt(pageId, 10));
 
     const slide = projectById.images;
 
     const slideEl = document.getElementById("sliderEl")
-    console.log(slideEl);
     
       number = number + direction;
       if (number < 0)

@@ -1,10 +1,10 @@
-function fetchProjectData() {
-    fetch('./projects.json')
-        .then(response => response.json())
-        .then(projects => displayProjects(projects))
-        .catch(error => console.error('Error fetching data:', error));
-}
-   function displayProjects(projects) {
+import { fetchProjectData } from "./script.js";
+import { darkMode } from "./script.js";
+
+let projects = []
+
+   const displayProjects = async () =>  {
+    projects = await fetchProjectData()
 
     const  projectElements= document.querySelector('.project-container');
     projectElements.innerHTML = projects
@@ -31,10 +31,9 @@ function fetchProjectData() {
         `;
     })
     .join('');
+    darkMode()
    
 }
 
-
-window.addEventListener('load', fetchProjectData);
-;
+displayProjects()
 
