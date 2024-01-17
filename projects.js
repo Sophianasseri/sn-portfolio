@@ -10,6 +10,9 @@ let projects = []
     projectElements.innerHTML = projects
     .map((project) => {
       return `
+      <a
+      href="./projectPage.html?id=${project.id}"
+      >
         <div class="project">
           <div>
             <img
@@ -17,16 +20,11 @@ let projects = []
               src="./assets/images/${project.preview}"
               alt=""
             />
-          </div>
-          <h2 class="title">${project.name}</h2>
-          <button
-            class="btn main-btn big-btn project-btn neonElement"
-            onclick="window.location.href='./projectPage.html?id=${project.id}'"
-          >
-            En savoir plus
-          </button>
+          </div>    
+      <h3 class="link cardTitle neonTextSecondary">${project.name}</h3>
+          
         </div>
-      </section>
+        </a>
     
         `;
     })

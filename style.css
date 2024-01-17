@@ -55,10 +55,11 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--main-color)
+    color: var(--main-color);
+    font-weight: 500;
 }
 
-p, li {
+p, li, h3 {
     font-family: 'Ignazio Text', sans-serif;
 }
 
@@ -176,14 +177,18 @@ nav {
     margin-left: 12%;
 }
 
-.navLink{
+.link, .navLink {
     display: inline-block;
-    position: relative;
     align-self: center;
+    position: relative;
+    font-weight: normal;
+}
+
+.navLink{
     margin: 0 5%;
 
 }
-.navLink::after {
+.link::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -195,7 +200,7 @@ nav {
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-.navLink:hover::after{
+.link:hover::after{
     transform: scaleX(1);
     transform-origin: botom left;
 }
@@ -274,25 +279,44 @@ header {
 
 /* All Projects Page */
 
-.project-container {
+.projects-section {
+    margin: 56px 0 56px 0;
+}
+
+.projects-section p {
+    text-align: center;
+}
+
+.project-container, .challenge-container {
 display: grid;
 grid-template-columns:  1fr 1fr 1fr;
+align-items: center;
+justify-items: center;
 text-align: center;
-margin: 24px 0;
+margin: 32px 0;
+}
+
+.cardTitle {
+    color: var(--main-color);
+    font-weight: normal;
 }
 
 .project-img {
     border: var(--main-color) 5px solid;
     border-radius: 10px;
-    max-height: 300px;
+    max-height: 250px;
     height: auto;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
+    transition: all 0.3s ease-in-out;
+}
+.project-img:hover {
+    transform: scale(1.1);
 }
 .project-btn {
     margin-top: 16px;
 }
 @media screen and (max-width: 1300px) {
-    .project-container {
+    .project-container, .challenge-container {
         grid-template-columns: 1fr 1fr; 
 
     }
@@ -302,7 +326,7 @@ margin: 24px 0;
 }
 
 @media screen and (max-width: 992px) {
-    .project-container {
+    .project-container, .challenge-container {
         grid-template-columns:  1fr;
 
     }
@@ -638,6 +662,6 @@ text-shadow:
   }
   .neon {
     box-shadow: 
-    0 0 20px var(--main-color),
-    inset 0 0 20px var(--main-color);
+    0 0 15px var(--main-color),
+    inset 0 0 10px var(--main-color);
   }

@@ -3,8 +3,15 @@
 export const fetchProjectData = async() => {
   const reponse = await fetch('./projects.json');
   const projects = await reponse.json();
-  return projects
+  return projects.projects
 }
+
+export const fetchChallengeData = async() => {
+  const reponse = await fetch('./projects.json');
+  const projects = await reponse.json();
+  return projects.challenges
+}
+
 
 
 // Dark Mode
@@ -15,7 +22,7 @@ export const darkMode = () => {
   const darkImages = document.querySelectorAll(".dark")
   const neonText =  document.querySelector("#neonText")
   const neonElements = document.querySelectorAll(".neonElement")
-  const neonTextSecondary = document.querySelectorAll(".navLink")
+  const neonTextSecondary = document.querySelectorAll(".link")
   
   
   // Change pictures according to color theme and add neon effect on button on dark mode
