@@ -20,7 +20,7 @@
       "name": "Wivy",
       "preview": "wivythumb.png",
       "images": ["wivy.png", "wivy2.png", "wivy3.png"],
-      "description": "Wivy est une application desktop et tablette qui propose des supports pour les animateurs en EHPAD. L'application se divise en sous-applications comprenant entre autres une partie animation qui propose une diversité de jeux destinés aux personnes âgées. Toutes les animations sont regroupées dans un catalogue à la manière d'un store. Des vignettes permettent d'avoir un résumé global sur le jeu. L'utilisateur peut aussi accéder à une fiche technique s'il veut plus d'information .Lorsque l'animateur a choisi un jeu, il doit le télécharger et il accède automatiquement à un espace « animations » téléchargées pour lancer le jeu. Chaque animation dispose de sa propre interface et il est possible que celui-ci soit adapté en fonction du thème de l'animation. Après un audit UX j'ai pu faire remonter quelques problèmes. Les interfaces des animations manquent de cohérence. Les éléments de navigation ne sont pas forcément à la même place d'une animation à une autre et les icônes pour les boutons peuvent être différentes. Les vignettes, la fiche technique et le menu des options manquent de structure et de lisibilité. J'ai pu aussi noter des problèmes de contraste notamment sur les animations avec une thématique.",
+      "description": "Wivy est une application desktop et tablette qui propose des supports pour les animateurs en EHPAD. L'application se divise en sous-applications comprenant entre autres une partie animation qui propose une diversité de jeux destinés aux personnes âgées. Toutes les animations sont regroupées dans un catalogue à la manière d'un store. Des vignettes permettent d'avoir un résumé global sur le jeu. L'utilisateur peut aussi accéder à une fiche technique s'il veut plus d'information .Lorsque l'animateur a choisi un jeu, il doit le télécharger et il accède automatiquement à un espace « animations téléchargées » pour lancer le jeu. Chaque animation dispose de sa propre interface et il est possible que celui-ci soit adapté en fonction du thème de l'animation. Après un audit UX j'ai pu faire remonter quelques problèmes. Les interfaces des animations manquent de cohérence. Les éléments de navigation ne sont pas forcément à la même place d'une animation à une autre et les icônes pour les boutons peuvent être différentes. Les vignettes, la fiche technique et le menu des options manquent de structure et de lisibilité. J'ai pu aussi noter des problèmes de contraste notamment sur les animations avec une thématique.",
       "goals": [
         "Harmoniser l’interface des animations",
         "Structurer les vignettes, la fiche technique des animations et le menu des options",
@@ -59,6 +59,12 @@
       "name": "Application horloge mondiale",
       "preview": "clockthumb.png",
       "link": "https://www.figma.com/proto/5lhaYXxIBWPrQ33S1dc3ln/ONLINE--CTC-Horloge-Mondiale?page-id=24%3A3172&type=design&node-id=47-1528&viewport=615%2C494%2C0.37&t=UgZOUb76iq00hXAl-1&scaling=min-zoom&starting-point-node-id=47%3A1528&mode=design"
+    },
+    {
+      "id": 12,
+      "name": "ChouchouPets",
+      "preview": "petthumb.png",
+      "link": "https://www.figma.com/proto/ANfj6mO83TyW86pgXqr1eB/ONLINE-CTC-Chouchou-Pets?page-id=0%3A1&type=design&node-id=39-257&viewport=370%2C208%2C0.27&t=bm8AM3xILAQBIoAH-1&scaling=min-zoom&starting-point-node-id=39%3A257&show-proto-sidebar=1&mode=design"
     }
   ]
 }
