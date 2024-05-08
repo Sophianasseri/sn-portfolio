@@ -13,15 +13,21 @@ let projects = []
       <a
       href="./projectPage.html?id=${project.id}"
       >
-        <div class="project">
+        <div class="project card">
           <div>
             <img
-              class="project-img"
-              src="./assets/images/${project.preview}"
+              class="light project-img"
+              src="./assets/images/${project.previewLight}"
               alt=""
             />
+            <img
+            class="dark project-img"
+            src="./assets/images/${project.previewDark}"
+            alt=""
+          />
           </div>    
-      <h3 class="link cardTitle neonTextSecondary">${project.name}</h3>
+      <h3 class="cardTitle">${project.name}</h3>
+      <p class="link projectLink neonTextSecondary">En savoir plus</p>
           
         </div>
         </a>

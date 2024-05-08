@@ -38,7 +38,7 @@ export const darkMode = () => {
           
           if (darkImages !== null) {
             darkImages.forEach((image) => {
-              image.style.display = "block"
+              image.style.display = "flex"
           })
           }
          
@@ -64,7 +64,7 @@ export const darkMode = () => {
 
         if (lightImages !== null) {
           lightImages.forEach((image) => {
-            image.style.display = "block"
+            image.style.display = "flex"
         })
         }
         if (darkImages !==null) {

@@ -2,69 +2,133 @@
   "projects": [
     {
       "id": 1,
-      "name": "A Sky of Honey - Paroles illustrées",
-      "preview": "skythumb.png",
+      "name": "Wivy",
+      "previewLight": "wivythumb.png",
+      "previewDark": "wivythumbDark.png",
+      "images": ["wivy.png", "wivy2.png", "wivy3.png"],
+      "description": "Wivy est une application ordinateur et tablette qui propose des supports pour les animateurs en EHPAD. L'application se divise en sous-applications comprenant entre autres une partie animation qui propose une diversité de jeux destinés aux personnes âgées. Toutes les animations sont regroupées dans un catalogue à la manière d'un store. Des vignettes permettent d'avoir un résumé global sur le jeu. L'utilisateur peut aussi accéder à une fiche technique s'il veut plus d'information .Lorsque l'animateur a choisi un jeu, il doit le télécharger et il accède automatiquement à un espace « animations » téléchargées pour lancer le jeu. Chaque animation dispose de sa propre interface et il est possible que celui-ci soit adapté en fonction du thème de l'animation. Après un audit UX j’ai proposé une refonte de l’interface en prenant en compte l’ajout de nouvelles fonctionnalités.",
+      "goals": [
+        "Audit UX",
+        " Harmoniser l’interface",
+        "Structurer les informations",
+        "Intégrer de  nouvelles fonctionnalités",
+        "Réaliser des tests utilisateurs"
+      ],
+      "process": [
+        " Audit UX afin d’analyser les problèmes de l’application",
+        " Délimitation des éléments à prototyper avec l’équipe Wivy",
+        " Analyse des sites et applications concurrentes",
+        "Recherche d’inspiration et d’idées sur des sites regroupant des travaux de Designers tels que Dribbble",
+        "Création de croquis sur papier et validation de l'équipe Wivy",
+        "Création des composants réutilisables (couleurs, polices etc.)",
+        "Création du prototype en intégrant les éléments créés par la graphiste",
+        "Tests utilisateurs du prototype avec des animateurs en EHPAD"
+      ],
+      "toolIconsLight": ["figma.png"],
+      "toolIconsDark": ["figmadark.png"],
+      "toolNames": ["Figma"],
+      "link": "https://www.figma.com/proto/ylVgZJs4TdzOHtsBR2BVdR/ONLINE-Animations-(Version-Wivy)?page-id=36%3A2&type=design&node-id=171-4079&viewport=448%2C492%2C0.06&t=RNwcvypTFQljYpp8-1&scaling=min-zoom&starting-point-node-id=171%3A4079&mode=design"
+    },
+    {
+      "id": 2,
+      "name": "ChouchouPets",
+      "previewLight": "chouchouthumb.png",
+      "previewDark": "chouchouthumbDark.png",
+      "images": ["chouchou.png"],
+      "description": "Prototype d’application mobile visant à aider les propriétaires d’animaux à trouver un Petsitter pour s’occuper de leurs compagnons.",
+      "goals": [
+        "Création d’illustrations",
+        "Prototyper une application mobile",
+        "Créer un parcours de recherche"
+      ],
+
+      "process": [
+        "Analyse des sites et applications de Petsitter existants",
+        "Recherche d’inspiration et d’idées sur des sites regroupant des travaux de  Designers tels que Dribbble",
+        "Création de croquis sur papier",
+        "Création de la maquette fonctionnelle (Wireframe)",
+        "Création des illustrations pour la page d’accueil et l’onboarding",
+        "Création des composants réutilisables (couleurs, polices etc.)",
+        "Création  du prototype"
+      ],
+      "toolIconsLight": ["illustrator.png", "figma.png"],
+      "toolIconsDark": ["illustratordark.png", "figmadark.png"],
+      "toolNames": ["Illustrator", "Figma"],
+      "link": "https://www.figma.com/proto/ANfj6mO83TyW86pgXqr1eB/ONLINE-CTC-Chouchou-Pets?page-id=0%3A1&type=design&node-id=39-257&viewport=370%2C208%2C0.27&t=bm8AM3xILAQBIoAH-1&scaling=min-zoom&starting-point-node-id=39%3A257&show-proto-sidebar=1&mode=design"
+    },
+    {
+      "id": 3,
+      "name": "A Sky of Honey",
+      "previewLight": "skythumb.png",
+      "previewDark": "skythumbDark.png",
       "images": ["askyproject.png", "askyproject2.png", "askyproject3.png"],
       "description": "Projet personnel pour lequel je me suis inspirée des paroles de l'album “Aerial” de Kate Bush. Cet album est séparé en deux parties, dont une intitulée \"A Sky of Honey\". Dans cette dernière, la chanteuse a composé une suite de chansons décrivant une journée d'été. Chaque chanson représente un moment de la journée allant du matin jusqu'à l'aube du jour suivant. Quelque soit les applications de streaming ou les sites de paroles, j'ai toujours trouvé l'affichage des paroles assez fade, D'autant plus quand l'univers d'un artiste ou d'un album est très imagé et thématique. A la manière des livrets que l'on pouvait retrouver dans les supports physiques, j'ai voulu proposer ici une option plus ludique où l'on peut facilement accéder aux paroles tout en étant immergé dans l'univers des chansons.",
       "goals": [
         "Transcrire un univers imagé en design",
         "Conserver une bonne UX malgré un thème visuel imposant"
       ],
-      "toolIconsLight": ["illustrator.svg", "figma.svg"],
-      "toolIconsDark": ["illustratordark.svg", "figmadark.svg"],
-      "toolNames": ["Illustrator", "Figma"],
+      "process": [
+        "Création d’un moodboard pour chaque chanson",
+        "Recherche d’inspiration et d’idées sur des sites regroupant des travaux de  Designers tels que Dribbble",
+        "Création des illustrations",
+        "Création des icônes",
+        "Création du prototype"
+      ],
+      "toolIconsLight": ["figma.png"],
+      "toolIconsDark": ["figmadark.png"],
+      "toolNames": ["Figma"],
       "link": "https://www.figma.com/proto/N5jnGJBVmLVQTfjOQ1w0mu/Lyric-Book?page-id=0%3A1&type=design&node-id=261-1191&viewport=609%2C408%2C0.07&t=eiQK7HevFvAbvT4E-1&scaling=min-zoom&starting-point-node-id=261%3A1191&mode=design"
     },
     {
-      "id": 2,
-      "name": "Wivy",
-      "preview": "wivythumb.png",
-      "images": ["wivy.png", "wivy2.png", "wivy3.png"],
-      "description": "Wivy est une application desktop et tablette qui propose des supports pour les animateurs en EHPAD. L'application se divise en sous-applications comprenant entre autres une partie animation qui propose une diversité de jeux destinés aux personnes âgées. Toutes les animations sont regroupées dans un catalogue à la manière d'un store. Des vignettes permettent d'avoir un résumé global sur le jeu. L'utilisateur peut aussi accéder à une fiche technique s'il veut plus d'information .Lorsque l'animateur a choisi un jeu, il doit le télécharger et il accède automatiquement à un espace « animations téléchargées » pour lancer le jeu. Chaque animation dispose de sa propre interface et il est possible que celui-ci soit adapté en fonction du thème de l'animation. Après un audit UX j'ai pu faire remonter quelques problèmes. Les interfaces des animations manquent de cohérence. Les éléments de navigation ne sont pas forcément à la même place d'une animation à une autre et les icônes pour les boutons peuvent être différentes. Les vignettes, la fiche technique et le menu des options manquent de structure et de lisibilité. J'ai pu aussi noter des problèmes de contraste notamment sur les animations avec une thématique.",
+      "id": 4,
+      "name": "Horloge mondiale",
+      "previewLight": "clockthumb.png",
+      "previewDark": "clockthumbDark.png",
+      "images": ["worldclock.png"],
+      "description": "Prototype d’application permettant de donner l’heure de différentes villes dans différents fuseaux horaires ",
       "goals": [
-        "Harmoniser l’interface des animations",
-        "Structurer les vignettes, la fiche technique des animations et le menu des options",
-        "Intégrer la possibilité de jouer directement en ligne, sans téléchargement"
+        "Créer une interface avec effets de transparence (Glassmorphism)",
+        "Prototyper une application mobile"
       ],
-      "toolIconsLight": ["figma.svg"],
-      "toolIconsDark": ["figmadark.svg"],
-      "toolNames": ["Figma"],
-      "link": "https://www.figma.com/proto/ylVgZJs4TdzOHtsBR2BVdR/ONLINE-Animations-(Version-Wivy)?page-id=36%3A2&type=design&node-id=171-4079&viewport=448%2C492%2C0.06&t=RNwcvypTFQljYpp8-1&scaling=min-zoom&starting-point-node-id=171%3A4079&mode=design"
-    },
-    {
-      "id": 3,
-      "name": "Médiathèque Till l'Espiègle",
-      "preview": "tillthumb.png",
-      "images": ["till.png"],
-      "description": "Projet personnel pour lequel j'ai voulu proposer un nouveau design pour la page d'accueil du site de la Médiathèque Till l’Espiègle tout en gardant les éléments graphiques de la page d’origine. ",
-      "goals": [
-        "Restructurer et simplifier la page",
-        "Hiérarchiser les informations"
+      "process": [
+        "Analyse des  applications d’horloge mondiale existante",
+        "Recherche d’inspiration et d’idées sur des sites regroupant des travaux de  Designers tels que Dribbble",
+        "Création de croquis sur papier",
+        "Création de la maquette fonctionnelle (Wireframe)",
+        "Création des composants réutilisables (couleurs, polices etc.)",
+        "Création  du prototype"
       ],
-      "toolIconsLight": ["figma.svg"],
-      "toolIconsDark": ["figmadark.svg"],
-      "toolNames": ["Figma"],
-      "link": "https://www.figma.com/proto/LRXPlTfNL5QjJAAlcCm0hL/ONLINE-Till?page-id=0%3A1&type=design&node-id=14-587&viewport=639%2C487%2C0.33&t=PAvArPlKAW4bhpEe-1&scaling=min-zoom&mode=design"
-    }
-  ],
-  "challenges": [
-    {
-      "id": 10,
-      "name": "Page 404",
-      "preview": "404thumb.png",
-      "link": "https://www.figma.com/proto/tGODSLwFbTJQkPxXlPrZir/Online--CTC-Page-404?page-id=0%3A1&type=design&node-id=9-34&viewport=398%2C205%2C0.82&t=7mxHsfUOcvLAcfdn-1&scaling=min-zoom&mode=design"
-    },
-    {
-      "id": 11,
-      "name": "Application horloge mondiale",
-      "preview": "clockthumb.png",
+      "toolIconsLight": ["illustrator.png", "figma.png"],
+      "toolIconsDark": ["illustratordark.png", "figmadark.png"],
+      "toolNames": ["Illustrator", "Figma"],
       "link": "https://www.figma.com/proto/5lhaYXxIBWPrQ33S1dc3ln/ONLINE--CTC-Horloge-Mondiale?page-id=24%3A3172&type=design&node-id=47-1528&viewport=615%2C494%2C0.37&t=UgZOUb76iq00hXAl-1&scaling=min-zoom&starting-point-node-id=47%3A1528&mode=design"
     },
     {
-      "id": 12,
-      "name": "ChouchouPets",
-      "preview": "petthumb.png",
-      "link": "https://www.figma.com/proto/ANfj6mO83TyW86pgXqr1eB/ONLINE-CTC-Chouchou-Pets?page-id=0%3A1&type=design&node-id=39-257&viewport=370%2C208%2C0.27&t=bm8AM3xILAQBIoAH-1&scaling=min-zoom&starting-point-node-id=39%3A257&show-proto-sidebar=1&mode=design"
+      "id": 5,
+      "name": "Médiathèque Till l'Espiègle",
+      "previewLight": "tillthumb.png",
+      "previewDark": "tillthumbDark.png",
+      "images": ["till.png"],
+      "description": "Projet personnel pour lequel j'ai voulu proposer un nouveau design pour la page d'accueil du site de la Médiathèque Till l’Espiègle tout en gardant les éléments graphiques de la page d’origine.",
+      "goals": [
+        "Travailler un site existant",
+        "Améliorer l’expérience utilisateur",
+        "Restructurer et simplifier la page",
+        "Hiérarchiser les informations",
+        "Mettre en place un défilement interactif des images"
+      ],
+      "process": [
+        "Analyse des sites de bibliothèques existants",
+        "Recherche d’inspiration et d’idées sur des sites regroupant des travaux de  Designers tels que Dribbble",
+        "Création de croquis sur papier",
+        "Création de la maquette fonctionnelle (Wireframe)",
+        "Création des composants réutilisables (couleurs, polices etc.)",
+        "Création  du prototype"
+      ],
+      "toolIconsLight": ["figma.png"],
+      "toolIconsDark": ["figmadark.png"],
+      "toolNames": ["Figma"],
+      "link": "https://www.figma.com/proto/LRXPlTfNL5QjJAAlcCm0hL/ONLINE-Till?page-id=0%3A1&type=design&node-id=14-587&viewport=639%2C487%2C0.33&t=PAvArPlKAW4bhpEe-1&scaling=min-zoom&mode=design"
     }
   ]
 }
