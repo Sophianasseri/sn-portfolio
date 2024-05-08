@@ -244,7 +244,6 @@ nav {
 
 .navLink{
     margin: 0 5%;
-    font-size: 12px;
 
 }
 .link::after {
@@ -282,6 +281,7 @@ header {
 }
 .navLink {
     min-width: 53px;
+    font-size: 12px;
 }
 
 }
