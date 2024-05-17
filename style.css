@@ -72,7 +72,7 @@ a {
     color: var(--main-color);
 }
 
-p, li, h2, h3, h4 {
+p, li, h2, h3, h4, button {
     font-family: 'Ignazio Text', sans-serif;
     color: var(--text-color);
 }
@@ -244,6 +244,7 @@ nav {
 
 .navLink{
     margin: 0 5%;
+    white-space: nowrap;
 
 }
 .link::after {
@@ -280,8 +281,8 @@ header {
     width: 50px;
 }
 .navLink {
-    min-width: 53px;
-    font-size: 12px;
+    font-size: 10px;
+    margin: 0 5px;
 }
 
 }
@@ -515,6 +516,24 @@ justify-content: center;
         padding: 16px;
     }
  }
+
+ /* Career Page */
+
+ .career {
+    max-width: 700px;
+    margin: 16px auto;
+    position: relative;
+ }
+
+ .career-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+ }
+ .career-icon {
+    margin-right: 8px;
+ }
+
 
 /* Footer */
 
