@@ -161,10 +161,17 @@ ul {
     justify-content: center;
 }
 
+.toggleIcon {
+    height: 30px;
+}
+
 @media screen and (max-width: 576px) {
     .toggleBtn {
-        height: 40px;
-        width: 40px
+        height: 30px;
+        width: 30px
+    }
+    .toggleIcon {
+        height: 22px;
     }
     .main-title {
         font-size: 20px;
@@ -180,9 +187,32 @@ ul {
   
     }
 
-.toggleIcon {
-    height: 30px;
+    @media screen and (max-width: 320px) {
+        .toggleBtn {
+            height: 25px;
+            width: 25px
+        }
+    
+        .toggleIcon {
+            height: 18px;
+        }
+      
+        }
+    
+
+
+
+.card {
+    background: var(--background-card);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 15px;
+    text-align: left;
+    border: 2px solid var(--border-card);
 }
+
+
+
 
 .card {
     background: var(--background-card);
@@ -287,12 +317,23 @@ header {
 
 }
 
+
+@media screen and (max-width: 320px) {
+    .firstFont {
+        font-size: 20px;
+    }
+    .secondFont {
+        font-size: 16px;
+    }
+  
+    }
+
 /* Landing Page */
 
 .hero {
     display: grid;
-    height: 100%;
-    position: relative;
+    height: 100vh;
+    align-content: center;
 }
 .hero-img {
  max-width: 100%;
@@ -302,40 +343,57 @@ header {
  animation: 700ms fadeIn ease-in;
 }
 
+.hero-img-mobile {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    height: auto;
+    animation: 700ms fadeIn ease-in;
+   }
+
+
+
 @media screen and (max-width: 1200px) {
    .mobile {
     height: 100vh;
 }
 }
 .hero-btn{
+    filter: drop-shadow(0px 2px 2px #202020);
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, 0);
+    align-items: center;;
     width: 80px;
     height: 80px;
     border-radius: 50%;  
-    background: var(--main-color);
+    background: var(--background-btn);
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    margin:8px auto;
 }
 .hero-btn:hover {
-    
-    transform:  translate(-50%, 0) scale(1.1);
+    background: var(--background-btn-hover);
+    transform: scale(1.1);
 }
 .hero-btn-icon {
     height: 47px;
-    width: 31px;
 }
 
 .hero-toggle-btn {
     position: absolute;
     right:0;
     top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    .hero-btn {
+     height: 50px;
+     width: 50px;
+ }
+ .hero-btn-icon {
+    height: 30px;
+}
 }
 
 /* All Projects Page */
@@ -568,6 +626,13 @@ justify-content: center;
 @media screen and (max-width: 576px) {
     .footer {
         margin: 80px 0 32px 0;
+    }
+    .contact-btn {
+        height: 40px;
+        width: 40px;
+    }
+    .footer img {
+        height: 25px;
     }
  }
 
